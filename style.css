@@ -1,0 +1,157 @@
+/* GENERAL */
+
+h1 {
+    font-size: 60px;
+    color: #768064;
+}
+
+h2 {
+    font-size: 60px;
+    color: #768064;
+}
+
+h3 {
+    color: #768064;
+}
+
+.garamond {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.paragraph {
+    font-size: 40px;
+}
+
+.highlight {
+    /* text-decoration: underline; */
+    color: #768064;
+}
+
+/* SECTION HEADER */
+
+.background1 {
+    background-color: #daded8;
+    height: 100%;
+}
+
+.plant1 {
+    height: 250px;
+    border-radius: 40%;
+    border-color: #2c3424;
+    border-style: double;
+}
+
+.landing {
+    text-align: right;
+    /* border-style: dotted;
+    border-radius: 5%;
+    border-color: #2c3424; */
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+/* SECTION INTRODUCTION */
+
+.background2 {
+    background-color: #e6e3df;
+    height: 100%;
+}
+
+.second {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.textleft {
+    text-align: left;
+}
+
+.portrait {
+    height: 250px;
+    border-radius: 40%;
+    border-color: #2c3424;
+    border-style: double;
+    margin-bottom: 2%;
+}
+
+.intro {
+    width: 250px;
+}
+
+
+/* SECTION SKILLS */
+
+.icon-square {
+    background-color: #e6e3df !important;
+}
+
+
+/* SECTION CONTACT */
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.plant2 {
+    height: 250px;
+    border-radius: 40%;
+    border-color: #2c3424;
+    border-style: double;
+}
+
+.place {
+    width: 300px;
+}
+
+/* Media correction */
+
+@media screen and (max-width: 900px) {
+    .first {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .landing {
+        text-align: left;
+    }
+
+    .third {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .plant1 {
+        height: 150px;
+    }
+
+    .plant2 {
+        height: 150px;
+    }
+}
